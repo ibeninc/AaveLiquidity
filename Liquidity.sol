@@ -78,10 +78,10 @@ contract AaveLiquidity {
 
   
      // Function to receive Ether. msg.data must be empty
-    //receive() external payable {}
+    receive() external payable {}
 
     // Fallback function is called when msg.data is not empty
-    //fallback() external payable {}
+    fallback() external payable {}
 
     function claimContractfunds() public onlyOwner {
         // Once we have the funds, transfer back to owner
