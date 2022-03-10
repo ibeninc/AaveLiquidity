@@ -1,2 +1,2 @@
 # AaveLiquidity
-Add funds to aave liquidity
+Deposit to aave liquidity lending pool.
